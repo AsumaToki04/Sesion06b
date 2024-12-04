@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B70D963C2CFFEB0100E99E0D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70D963B2CFFEB0100E99E0D /* Persistence.swift */; };
 		B7BE3A182CFFE6D800AD8C5F /* Sesion06bApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE3A172CFFE6D800AD8C5F /* Sesion06bApp.swift */; };
 		B7BE3A1A2CFFE6D800AD8C5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE3A192CFFE6D800AD8C5F /* ContentView.swift */; };
 		B7BE3A1C2CFFE6DA00AD8C5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7BE3A1B2CFFE6DA00AD8C5F /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B70D963B2CFFEB0100E99E0D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		B7BE3A142CFFE6D800AD8C5F /* Sesion06b.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sesion06b.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7BE3A172CFFE6D800AD8C5F /* Sesion06bApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sesion06bApp.swift; sourceTree = "<group>"; };
 		B7BE3A192CFFE6D800AD8C5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				B7BE3A1B2CFFE6DA00AD8C5F /* Assets.xcassets */,
 				B7BE3A222CFFE6DA00AD8C5F /* Sesion06b.xcdatamodeld */,
 				B7BE3A1D2CFFE6DA00AD8C5F /* Preview Content */,
+				B70D963B2CFFEB0100E99E0D /* Persistence.swift */,
 			);
 			path = Sesion06b;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7BE3A1A2CFFE6D800AD8C5F /* ContentView.swift in Sources */,
+				B70D963C2CFFEB0100E99E0D /* Persistence.swift in Sources */,
 				B7BE3A182CFFE6D800AD8C5F /* Sesion06bApp.swift in Sources */,
 				B7BE3A242CFFE6DA00AD8C5F /* Sesion06b.xcdatamodeld in Sources */,
 			);
