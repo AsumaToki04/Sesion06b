@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B70D963C2CFFEB0100E99E0D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70D963B2CFFEB0100E99E0D /* Persistence.swift */; };
+		B70D963E2CFFF39300E99E0D /* Escritor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70D963D2CFFF39300E99E0D /* Escritor.swift */; };
+		B70D96402CFFF39D00E99E0D /* LibrosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70D963F2CFFF39D00E99E0D /* LibrosView.swift */; };
 		B7BE3A182CFFE6D800AD8C5F /* Sesion06bApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE3A172CFFE6D800AD8C5F /* Sesion06bApp.swift */; };
 		B7BE3A1A2CFFE6D800AD8C5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE3A192CFFE6D800AD8C5F /* ContentView.swift */; };
 		B7BE3A1C2CFFE6DA00AD8C5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7BE3A1B2CFFE6DA00AD8C5F /* Assets.xcassets */; };
 		B7BE3A1F2CFFE6DA00AD8C5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7BE3A1E2CFFE6DA00AD8C5F /* Preview Assets.xcassets */; };
-		B7BE3A212CFFE6DA00AD8C5F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE3A202CFFE6DA00AD8C5F /* Persistence.swift */; };
 		B7BE3A242CFFE6DA00AD8C5F /* Sesion06b.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7BE3A222CFFE6DA00AD8C5F /* Sesion06b.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B70D963B2CFFEB0100E99E0D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		B70D963D2CFFF39300E99E0D /* Escritor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Escritor.swift; sourceTree = "<group>"; };
+		B70D963F2CFFF39D00E99E0D /* LibrosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibrosView.swift; sourceTree = "<group>"; };
 		B7BE3A142CFFE6D800AD8C5F /* Sesion06b.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sesion06b.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7BE3A172CFFE6D800AD8C5F /* Sesion06bApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sesion06bApp.swift; sourceTree = "<group>"; };
 		B7BE3A192CFFE6D800AD8C5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B7BE3A1B2CFFE6DA00AD8C5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7BE3A1E2CFFE6DA00AD8C5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B7BE3A202CFFE6DA00AD8C5F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		B7BE3A232CFFE6DA00AD8C5F /* Sesion06b.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sesion06b.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,9 +62,11 @@
 				B7BE3A172CFFE6D800AD8C5F /* Sesion06bApp.swift */,
 				B7BE3A192CFFE6D800AD8C5F /* ContentView.swift */,
 				B7BE3A1B2CFFE6DA00AD8C5F /* Assets.xcassets */,
-				B7BE3A202CFFE6DA00AD8C5F /* Persistence.swift */,
 				B7BE3A222CFFE6DA00AD8C5F /* Sesion06b.xcdatamodeld */,
 				B7BE3A1D2CFFE6DA00AD8C5F /* Preview Content */,
+				B70D963B2CFFEB0100E99E0D /* Persistence.swift */,
+				B70D963D2CFFF39300E99E0D /* Escritor.swift */,
+				B70D963F2CFFF39D00E99E0D /* LibrosView.swift */,
 			);
 			path = Sesion06b;
 			sourceTree = "<group>";
@@ -143,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7BE3A212CFFE6DA00AD8C5F /* Persistence.swift in Sources */,
+				B70D963E2CFFF39300E99E0D /* Escritor.swift in Sources */,
 				B7BE3A1A2CFFE6D800AD8C5F /* ContentView.swift in Sources */,
+				B70D963C2CFFEB0100E99E0D /* Persistence.swift in Sources */,
+				B70D96402CFFF39D00E99E0D /* LibrosView.swift in Sources */,
 				B7BE3A182CFFE6D800AD8C5F /* Sesion06bApp.swift in Sources */,
 				B7BE3A242CFFE6DA00AD8C5F /* Sesion06b.xcdatamodeld in Sources */,
 			);
