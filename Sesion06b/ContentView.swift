@@ -28,13 +28,15 @@ struct ContentView: View {
                 } else {
                     List {
                         ForEach(escritores) { item in
-                            HStack {
-                                let cantidadDeLibros = item.libros?.count ?? 0
-                                Text(item.nombre ?? "Sin nombre")
-                                Spacer()
-                                Text("\(cantidadDeLibros) libros")
-                                    .foregroundColor(.gray)
-                                    .font(.subheadline)
+                            NavigationLink(destination: LibrosView(escritor: item)) {
+                                HStack {
+                                    let cantidadDeLibros = item.libros?.count ?? 0
+                                    Text(item.nombre ?? "Sin nombre")
+                                    Spacer()
+                                    Text("\(cantidadDeLibros) libros")
+                                        .foregroundColor(.gray)
+                                        .font(.subheadline)
+                                }
                             }
                         }
                     }
