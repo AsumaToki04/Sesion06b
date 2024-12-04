@@ -11,7 +11,6 @@
 		B7BE3A1A2CFFE6D800AD8C5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE3A192CFFE6D800AD8C5F /* ContentView.swift */; };
 		B7BE3A1C2CFFE6DA00AD8C5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7BE3A1B2CFFE6DA00AD8C5F /* Assets.xcassets */; };
 		B7BE3A1F2CFFE6DA00AD8C5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7BE3A1E2CFFE6DA00AD8C5F /* Preview Assets.xcassets */; };
-		B7BE3A212CFFE6DA00AD8C5F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE3A202CFFE6DA00AD8C5F /* Persistence.swift */; };
 		B7BE3A242CFFE6DA00AD8C5F /* Sesion06b.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7BE3A222CFFE6DA00AD8C5F /* Sesion06b.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
@@ -21,7 +20,6 @@
 		B7BE3A192CFFE6D800AD8C5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B7BE3A1B2CFFE6DA00AD8C5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7BE3A1E2CFFE6DA00AD8C5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B7BE3A202CFFE6DA00AD8C5F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		B7BE3A232CFFE6DA00AD8C5F /* Sesion06b.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sesion06b.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,7 +56,6 @@
 				B7BE3A172CFFE6D800AD8C5F /* Sesion06bApp.swift */,
 				B7BE3A192CFFE6D800AD8C5F /* ContentView.swift */,
 				B7BE3A1B2CFFE6DA00AD8C5F /* Assets.xcassets */,
-				B7BE3A202CFFE6DA00AD8C5F /* Persistence.swift */,
 				B7BE3A222CFFE6DA00AD8C5F /* Sesion06b.xcdatamodeld */,
 				B7BE3A1D2CFFE6DA00AD8C5F /* Preview Content */,
 			);
@@ -143,7 +140,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7BE3A212CFFE6DA00AD8C5F /* Persistence.swift in Sources */,
 				B7BE3A1A2CFFE6D800AD8C5F /* ContentView.swift in Sources */,
 				B7BE3A182CFFE6D800AD8C5F /* Sesion06bApp.swift in Sources */,
 				B7BE3A242CFFE6DA00AD8C5F /* Sesion06b.xcdatamodeld in Sources */,
